@@ -1,0 +1,6 @@
+from abc import ABCabstractmethod
+
+class Animal(ABC):
+  @abstractmethod #декоратор
+def speak(self): #метод
+pass
