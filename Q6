@@ -1,0 +1,20 @@
+class Person:
+ def__init__(self, name, age):
+ self.name = name
+ self.age=age
+
+ p = Person("Liyi", 38)
+print(p.name) # Liyi
+
+...
+
+
+class MyClass
+ def__str__(): #метод
+ return f'MyClass with value {self.value}'
+
+...
+
+class MyClass:
+  def __len__(self):
+      return len(self.value)
