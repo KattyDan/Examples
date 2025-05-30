@@ -1,0 +1,16 @@
+class Animal:
+ def make_sound(self):
+ print("Какой-то звук")
+
+ class Dog(Animal):
+ def make_sound(self): #переопределенте метода
+ print("Гав Гав!")
+
+class Cat(Animal):
+ def make_soumd(self): #переопредение метода
+ print("Мяу!")
+
+animals = [Dog(), Cat()] #список животных
+
+ for animals in animals:
+animal.male.soumd() #вызов метода
