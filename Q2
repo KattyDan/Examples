@@ -1,0 +1,11 @@
+#класс
+class Cat 
+ def init(self, name, age): #конструктор (создание обьекта)
+    self.name=name
+    self.age=age  #свойства
+deg meow(self): #метод(действие)
+print(f"{self.name} says: Meow!") 
+
+#обьект
+my_cat=Cat("Барсик",3) # создание обьекта
+my_cat.meow() #вызов методание 
