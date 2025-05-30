@@ -1,0 +1,24 @@
+# Родительский класс (базовый)
+class Animal:
+    def speak(self):
+     print("Животное издает звук")
+
+# дочерний класс (наследует от Animal)
+class Dog(Animal):
+    def speak(self):  # переопределение метода
+     print("Гав-гав!")
+
+# Дочерний класс (наследует от Animal)
+class Cat(Animal):
+    def speak(self):  # переопределение метода
+     print("Мяу-мяу!")
+
+# Создание обьектов
+animal = Animal()
+dog = Dog()
+cat = Cat()
+
+# вызов методов
+animal.speak()  # Вывод: "Животное издает звук"
+dog.speak()     # Вывод: "Гав-гав!"
+cat.speak()     # Вывод: "Мяу-мяу!"
