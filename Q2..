@@ -1,0 +1,12 @@
+class Bank Account:
+ def __init__(self,balance):
+ self._balance=balance
+
+def get_balance(self): #геттер
+  return self._balance
+
+def set_balance(self, new_balance): #сеттер
+ if new_balance>=0:
+   self.__balance = new_balance
+else:
+ print("Баланс не может быть отрицательным!")
