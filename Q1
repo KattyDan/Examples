@@ -1,6 +1,6 @@
 #класс
 class Cat 
- def init(self, name, age): #конструктор (создание обьекта)
+ def __init__(self, name, age): #конструктор (создание обьекта)
     self.name=name
     self.age=age  #свойства
 deg meow(self): #метод(действие)
