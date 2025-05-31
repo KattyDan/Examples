@@ -13,4 +13,4 @@ class Cat(Animal):
 animals = [Dog(), Cat()] #список животных
 
  for animals in animals:
-animal.male.soumd() #вызов метода
+animal.make.sound() #вызов метода
